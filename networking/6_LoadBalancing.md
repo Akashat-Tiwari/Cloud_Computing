@@ -20,4 +20,17 @@
     * 2. Software Load Balancer : Runs as software on servers, examples : NGINX, HAProxy,Traefik
     * 3. Cloud Load Balancer : Managed by cloud providers, emamples : Amazon Web Services ELB, Google Cloud Load Balancer, Microsoft Azure Load Balancer 
 
-* 
+* Load Balancing Layers :
+    
+    * Layer 4 Load Balancing (Transport Layer) : Works using: IP addresses -> TCP/UDP ports, Fast but less intelligent.
+    * Layer 7 Load Balancing (Application Layer) : Works using: URLs, HTTP headers, Cookies, Content type, More intelligent.
+ 
+* Load Balancer in Cloud Architecture :
+
+    * Users -> Load Balancer -> Web Servers -> Database Servers
+    * Auto Scaling + Load Balancing
+         * Cloud systems combine: Load balancers and Auto scaling
+         * When traffic increases: New servers added automatically
+         * When traffic decreases: Servers removed
+  
+
