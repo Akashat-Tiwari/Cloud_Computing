@@ -25,3 +25,19 @@ ex :  if i is None :
             
 
       print("empty")
+
+* string slicing :
+    
+     str[a:b] -> a is included while b is excluded
+
+     str[:b] -> from 0 to b-1 
+
+     str[a:] -> from a to end of string 
+  
+     str[:] -> whole string
+
+* string replacement :
+
+    str = "banana"
+    str2 = str.replace("na","XX")
+    print(str2) -> baxxxx
