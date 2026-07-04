@@ -41,3 +41,23 @@ ex :  if i is None :
     str = "banana"
     str2 = str.replace("na","XX")
     print(str2) -> baxxxx
+
+* str.split() : returns a list containing elements of string but separated by spaces
+
+    ex : list1 = str.split()
+
+    ex : list2 = str.split(";") : split the words/elements by semicolon ie ;
+
+* lists are like pringles : systematic chips while dictionaries are lays packet : scattered (not organised) chips
+
+* dictonaries are maps/hashmaps (in java) ie having (key : value) pairs
+
+* applications of dictonaries are : histogram ie counting the frequencies
+
+* x = counts[key] : its an traceback if the key is not in dict to avoid this we use get() method of dict  
+
+* x = counts.get(key,0) : where x takes value if the key exists in counts(dict) else x takes the default value ie 0
+
+* if key exists then add incr frequency by 1 and if not exits then set frequency to 1
+
+* ***  both simultaneously by using get() : counts[key] = counts.get(key,0) + 1  
