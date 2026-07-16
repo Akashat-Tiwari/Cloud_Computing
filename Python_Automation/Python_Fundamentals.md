@@ -60,4 +60,40 @@ ex :  if i is None :
 
 * if key exists then add incr frequency by 1 and if not exits then set frequency to 1
 
-* ***  both simultaneously by using get() : counts[key] = counts.get(key,0) + 1  
+* ***  both simultaneously by using get() : counts[key] = counts.get(key,0) + 1
+
+## in built functions : 
+
+* sorted(string_name) : will return the passed string in alphabetically sorted order
+
+* generator expression :
+
+* s = "Hello@#123!!"
+
+* result = "".join(ch for ch in s if ch.isalnum()) : Keeps only letters and numbers.
+
+* result = "".join(ch for ch in s if ch.isdigit()) : Keep only digits.
+
+* result = "".join(ch for ch in s if not ch.isspace()) : removes spaces
+
+* "".join(["a","b","c"]) : join the characters to form a string but joining without something in between due to "".
+
+* s.upper(), s.lower(),s.swapcase(), s.capatalize() : common functions
+
+* General slicing syntax: string[start : stop : step]
+
+*indices :  A   B   C   D   E
+            0   1   2   3   4
+
+           Negative indices
+
+            A   B   C   D   E
+           -5  -4  -3  -2  -1
+
+* reversing a string : using slicing
+
+*   s = "hello"
+
+*   rev = s[::-1]
+
+
