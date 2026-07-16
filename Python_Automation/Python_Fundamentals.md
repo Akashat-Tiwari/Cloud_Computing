@@ -82,7 +82,9 @@ ex :  if i is None :
 
 * General slicing syntax: string[start : stop : step]
 
-*indices :  A   B   C   D   E
+*indices :
+           
+            A   B   C   D   E
             0   1   2   3   4
 
            Negative indices
@@ -92,8 +94,6 @@ ex :  if i is None :
 
 * reversing a string : using slicing
 
-*   s = "hello"
-
-*   rev = s[::-1]
+*   s = "hello" =>  rev = s[::-1]
 
 
