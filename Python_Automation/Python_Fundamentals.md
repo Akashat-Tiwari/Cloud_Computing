@@ -96,4 +96,6 @@ ex :  if i is None :
 
 *   s = "hello" =>  rev = s[::-1]
 
+### Tuples :
 
+* 
