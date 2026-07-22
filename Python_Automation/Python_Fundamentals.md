@@ -96,6 +96,26 @@ ex :  if i is None :
 
 *   s = "hello" =>  rev = s[::-1]
 
-### Tuples :
+## Tuples :
 
-* 
+* tupels are immutable ie we can't change the items once created
+
+* strings are also immutable while lists are mutable
+
+* x = (1,2,3)
+
+  x.sort(), x.append(5) , x.reverse() : traceback
+
+* we can also put a tuple on the left hand side of an assignment statement : (x,y) = (4,"akashat")
+
+### tuples are comparable :
+
+* the comparision operators work with tuples and other sequences. if the first item is equal, python goes on the next element, and so on, until it finds elements that differ
+
+* example
+
+      i) (0,1,2) < (5,1,2) : true
+      ii) (0,1,200000) < (0,3,4) : true
+      iii) ("jones","sally") < ("jones","sam") : true
+      iv) ("jones","sally") < ("adams","sam") : true
+        
