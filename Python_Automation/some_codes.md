@@ -40,7 +40,7 @@ print(bigword,bigcount)
 
 
 
-##2. Sorting lists of tuples from a dict
+## 2. Sorting lists of tuples from a dict
 
 d = {'a' : 10 , 'b' : 1 , "c" : 22}
 
