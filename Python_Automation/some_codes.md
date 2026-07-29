@@ -93,3 +93,15 @@ for (v,k) in top_ten :
 
            counts = {}
            sorted([(v,k) for k,v in counts.items()])
+
+## 4. extracting a host name from the given data using find and string slicing
+
+data = "from asymptote@ak.ti.12 sat jan 2005"
+
+atpos = data.find("@")   // 14
+
+spacepos = data.find(" ",atpos)     // 23 
+
+host = data[atpos+1 : spacepos]
+
+print(host)
