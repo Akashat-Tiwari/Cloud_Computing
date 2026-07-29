@@ -141,3 +141,9 @@ ex :  if i is None :
 * [0-9]+    :   any single character between 0-9 or a single digit , +  :  is one or more, [] : means single character
 
 * re.search() returns true or false if the string is found , while re.findall() returns the actual "list of strings" which are matched
+
+* extraction can be done by using () parenthesis
+
+## Networked Programs :- 
+
+* 
