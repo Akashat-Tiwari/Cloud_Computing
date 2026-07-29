@@ -118,4 +118,26 @@ ex :  if i is None :
       ii) (0,1,200000) < (0,3,4) : true
       iii) ("jones","sally") < ("jones","sam") : true
       iv) ("jones","sally") < ("adams","sam") : true
+
+
+## Regular Expressions :- 
+
+* import re : import a module to perform certain operations
+
+* line.find("from:") returns -1 if "from" not found in the line else it return >= 0 .... similarly :  re.search("from:",line)
+
+* line.startswith("from:") : similarly re.search("^from",line)
+
+*  * : 0 or more characters , + : one or more characters
+
+* ^X.*:  ^ : starting , X is X, . is any character , * : repetetion of the previous value, : is :
+
+* example, X-seive : CMU seive 2.3
+
+* ^X-\s+:  : - is - , \s : any non whitespace character, 
         
+* example, X-seive: CMU seive 2.3 : okay but  X-seive is: CMU seive 2.3 not okay
+
+* [0-9]+    :   any single character between 0-9 or a single digit , +  :  is one or more, [] : means single character
+
+* re.search() returns true or false if the string is found , while re.findall() returns the actual "list of strings" which are matched
