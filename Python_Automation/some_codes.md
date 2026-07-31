@@ -105,3 +105,26 @@ spacepos = data.find(" ",atpos)     // 23
 host = data[atpos+1 : spacepos]
 
 print(host)
+
+## 5. Python built in support for TCP ports/sockets, HTTP request in python  
+
+import socket
+
+mysocket = socket.socket(socket.AF_INET,socket.SOCK_STREAM)
+
+mysocket.connect(("data.py4e.org",80))
+
+cmd = "GET http://data.py4e.org/romeo.txt HTTP/1.0\n\n".encode()
+
+mysocket.send(cmd)
+
+while true : 
+
+     data = mysocket.recv(512)
+     if(len(data) <1 ) : 
+          break
+     print(data.decode())
+
+
+mysocket.close()
+
