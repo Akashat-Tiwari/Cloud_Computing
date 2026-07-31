@@ -146,4 +146,6 @@ ex :  if i is None :
 
 ## Networked Programs :- 
 
-* 
+* common TCP ports :
+
+1. telnet - 23(login), SSH - 22(secure login), HTTP - 80, HTTPS - 443, SMTP - 25(Mail), DNS - 53, FTP - 21 
