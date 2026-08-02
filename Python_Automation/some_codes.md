@@ -106,7 +106,26 @@ host = data[atpos+1 : spacepos]
 
 print(host)
 
-## 5. Python built in support for TCP ports/sockets, HTTP request in python  
+## 5. Python built in support for TCP ports/sockets, HTTP request in python \
+
+Start
+  │
+  ▼
+Create socket
+  │
+  ▼
+Connect to data.py4e.org
+  │
+  ▼
+Send GET request
+  │
+  ▼
+Receive 512 bytes
+  │
+  ▼
+More data?
+ ├── Yes → Print it → Receive next 512 bytes
+ └── No → Close socket
 
 import socket
 
