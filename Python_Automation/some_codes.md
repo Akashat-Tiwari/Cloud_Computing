@@ -129,7 +129,7 @@ More data?
 
 import socket
 
-mysocket = socket.socket(socket.AF_INET,socket.SOCK_STREAM)
+mysocket = socket.socket(socket.AF_INET,socket.SOCK_STREAM)  // IPV4 and TCP/IP
 
 mysocket.connect(("data.py4e.org",80))
 
