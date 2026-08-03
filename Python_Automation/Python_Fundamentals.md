@@ -148,4 +148,8 @@ ex :  if i is None :
 
 * common TCP ports :
 
-1. telnet - 23(login), SSH - 22(secure login), HTTP - 80, HTTPS - 443, SMTP - 25(Mail), DNS - 53, FTP - 21 
+* FTP - 21 telnet - 23(login), SSH - 22(secure login), HTTP - 80, HTTPS - 443, SMTP - 25(Mail), DNS - 53, 
+
+* to get the ASCII of character use print(ord('a')) : 97
+
+* In python3 and later all strings are unicode 
