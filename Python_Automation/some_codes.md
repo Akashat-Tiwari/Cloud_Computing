@@ -133,16 +133,16 @@ mysocket = socket.socket(socket.AF_INET,socket.SOCK_STREAM)  // IPV4 and TCP/IP
 
 mysocket.connect(("data.py4e.org",80))
 
-cmd = "GET http://data.py4e.org/romeo.txt HTTP/1.0\n\n".encode()
+cmd = "GET http://data.py4e.org/romeo.txt HTTP/1.0\n\n".encode()      //  converting string to bytes for socket as it can only communicate in bytes
 
 mysocket.send(cmd)
 
 while true : 
 
-     data = mysocket.recv(512)
+     data = mysocket.recv(512)        
      if(len(data) <1 ) : 
           break
-     print(data.decode())
+     print(data.decode())          // bytes to readable strings
 
 
 mysocket.close()
