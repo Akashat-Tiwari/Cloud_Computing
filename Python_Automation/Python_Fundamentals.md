@@ -153,3 +153,29 @@ ex :  if i is None :
 * to get the ASCII of character use print(ord('a')) : 97
 
 * In python3 and later all strings are unicode 
+
+## Web Services: 
+
+* XML(eXtensible Markup Language) and JSON(JavaScript Object Notation) are both formats used to store and exchange data, but they differ in structure and usage.
+
+* XML (eXtensible Markup Language)
+
+XML is a markup language used to store, organize, and exchange data in a structured, hierarchical format using custom tags. It is both human-readable and machine-readable and supports features such as attributes, namespaces, comments, and validation through DTD or XML Schema (XSD). XML is commonly used in configuration files, document storage, and SOAP-based web services. Although flexible and suitable for complex data, it is more verbose and slower to parse than JSON.
+
+    * <student>
+        <name>John</name>
+        <age>20</age>
+        <course>Computer Science</course>
+     </student>
+
+* JSON (JavaScript Object Notation)
+
+JSON is a lightweight data-interchange format that represents data using key-value pairs and arrays. It is easy to read, compact, and faster to parse than XML, making it ideal for REST APIs, web applications, mobile applications, and cloud services. JSON supports data types such as strings, numbers, booleans, arrays, objects, and null values, and is widely used due to its simplicity and efficiency.
+
+    * {
+        "name": "John",
+        "age": 20,
+        "course": "Computer Science"
+     }
+     
+* 
