@@ -178,4 +178,17 @@ JSON is a lightweight data-interchange format that represents data using key-val
         "course": "Computer Science"
      }
      
-* 
+* Service Oriented Apprach :
+
+      APIs : An API (Application Programming Interface) is a set of rules that allows two software applications to communicate with each other.
+      Suppose you have a weather app.
+
+      The app sends a request to a weather API: Give me the weather in Srinagar.
+
+      The API forwards the request to the weather server.
+      The server sends back data, usually in JSON: {
+                      "city": "Srinagar",
+                      "temperature": 24,
+                      "condition": "Cloudy"
+                      }
+      The app displays:24°C, Cloudy
