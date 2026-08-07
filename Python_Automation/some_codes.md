@@ -177,3 +177,54 @@ for item in lst:
         print('name',item.find('name').text)
         print('Id',item.find('id').text)
         print('Attribute',item.get("x))
+
+
+## 7. parsing through JSON
+
+import json
+
+data = '''{
+         
+    "name" : "akashat",
+    "phone" : {"type" : "intl","number" : "+1 4869454005"},
+    "email" : {"hide" : "yes"}
+
+}'''
+
+info = json.loads(data)
+
+
+
+print("name : ", info["name"])
+
+print("email : " , info["email"]["hide"])
+
+print("phone number: " ,info["phone"]["number"])
+
+print("phone type: " ,info["phone"]["type"])
+
+## 8.  parsing through JSON , via list 
+
+     import json
+
+     data = '''[
+         
+            {
+       "id" : "01",
+       "name" : "akashat",
+       "x" : "2"
+    },
+    {
+        "id" : "02",
+        "name" : "tiwari",
+        "x" : "4"
+    }
+
+     ]'''
+
+    info = json.loads(data)
+
+    for item in info:  
+    print("name : ", item["name"])
+    print("id : ", item["id"])
+    print("x: ", item["x"])
