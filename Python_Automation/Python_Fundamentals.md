@@ -192,3 +192,7 @@ JSON is a lightweight data-interchange format that represents data using key-val
                       "condition": "Cloudy"
                       }
       The app displays:24°C, Cloudy
+
+## python objects :
+
+* 
